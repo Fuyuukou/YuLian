@@ -7,6 +7,11 @@
 我们需要查阅外部的许多文档，并需要额外处理学习文档信息。
 ### 雨涟音乐站
 接口：1206
+#### 微服务
+Deducer: ElasticSearch&Kibana, 分词器、推荐核心、数据分析
+Middleware: 本地API&RocketMQ, 本地大模型API工具调用、消息中间件
+
+
 临时需求：
 音乐网站的基本功能
 角色：用户(User)、协助员(Assistant)、站长(Webmaster)

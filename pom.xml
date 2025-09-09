@@ -30,6 +30,8 @@
     <modules>
         <!--    ElasticSearch&Kibana    -->
         <module>deducer</module>
+        <!--    本地API&RocketMQ    -->
+        <module>middleware</module>
     </modules>
 
     <properties>
