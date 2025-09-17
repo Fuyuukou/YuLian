@@ -8,7 +8,12 @@
 在学习和工作时需要涉及多种切换，尤其是在初期学习阶段时
 我们需要查阅外部的许多文档，并需要额外处理学习文档信息。
 ### 雨涟音乐站
-接口：1206
+后端接口：1206
+前端接口:  0723 m.fuyuukou.com
+ListMonk: 9000 bindblood.fuyuukou.com Chengjiashuo 1220725916cbm.
+ElasticSearch: 1200
+Kibana: 1201 sourcandy.fuyuukou.com elastic 1220725916cbm.
+
 #### 介绍
 面向音乐爱好者，探索AI集成与交互式播放解放音乐消费、创作表达门槛的新形式，本项目致力于打造一个现代化音乐播放网站。
 #### 微服务

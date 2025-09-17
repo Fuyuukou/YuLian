@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.2.0</version>
+        <version>3.2.5</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.dyx</groupId>
@@ -42,6 +42,8 @@
         <mysql.version>8.0.33</mysql.version>
         <mybatis.version>3.0.4</mybatis.version>
         <druid.version>1.2.22</druid.version>
+        <es.version>3.5.5</es.version>
+        <ejava.version>9.0.4</ejava.version>
     </properties>
 
     <dependencyManagement>
@@ -89,6 +91,20 @@
                 <groupId>com.alibaba</groupId>
                 <artifactId>druid-spring-boot-starter</artifactId>
                 <version>${druid.version}</version>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-elasticsearch -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-data-elasticsearch</artifactId>
+                <version>${es.version}</version>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/co.elastic.clients/elasticsearch-java -->
+            <dependency>
+                <groupId>co.elastic.clients</groupId>
+                <artifactId>elasticsearch-java</artifactId>
+                <version>${ejava.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

@@ -1,0 +1,27 @@
+server:
+  port: 0724
+  forward-headers-strategy: framework
+spring:
+  elasticsearch:
+    uris: ["https://localhost:1200"]
+    username: "elastic"
+    password: "1220725916cbm."
+    restclient:
+      ssl:
+        bundle: "elasticsearch"
+  data:
+    elasticsearch:
+      repositories:
+        enabled: true
+  ssl:
+    bundle:
+      pem:
+        elasticsearch:
+          keystore:
+            certificate: "classpath:candy/http_ca.crt"
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  application:
+    name: deducer
